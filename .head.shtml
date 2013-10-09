@@ -1,36 +1,30 @@
-<!--#if expr="!$X_TITLE"
-  --><!--#set var="X_TITLE" value="****RUBRIK SAKNAS!****"
---><!--#endif
---><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!doctype html>
 <html>
 <head>
-  <title>Mat! -- <!--#echo var="X_TITLE" --></title>
-  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><!--#if
+  <!--#if expr="!$X_TITLE"
+    --><!--#set var="X_TITLE" value="****RUBRIK SAKNAS!****"
+  --><!--#endif
+  --><title>Mat! -- <!--#echo var="X_TITLE" --></title><!--#if
   expr="$X_FAVICON" -->
   <link type="image/png" rel="icon" href="<!--#echo
-    var="X_FAVICON" -->"><!--#endif --><!--#if
-  expr="$X_STYLESHEET" -->
-  <link type="text/css" rel=stylesheet href="<!--#echo
-    var="X_STYLESHEET" -->"><!--#endif
+    var="X_FAVICON" -->"><!--#endif
+  --><!--#if expr="$X_STYLESHEET" -->
+  <link rel=stylesheet href="<!--#echo var="X_STYLESHEET" -->"><!--#endif
   --><!--#if expr="$X_URI = /^$/"
     --><!--#set var="X_URI" value="http://${HTTP_HOST}${DOCUMENT_URI}"
     --><!--#endif
   --><!--#config timefmt="%Y-%m-%d, %H.%M" -->
-  <meta name="geo.position" content="59.9167;17.6333">
-  <meta name="geo.region" content="SE-C">
-  <meta name="geo.placename" content="Uppsala">
 </head>
-<BODY VLINK="#551A8B" ALINK="#FFFF00" LINK="#0000EE" TEXT="#000000" BGCOLOR="#FFFFFF">
-
+<body vlink="#551a8b" alink="#ffff00" link="#0000ee" text="#000000" bgcolor="#ffffff">
 
 <!--#set var="PLACE" value="http://${HTTP_HOST}${REQUEST_URI}"
 --><!--#config timefmt="%Y-%m-%d, %H:%M"
 --><!-- ==================== Adressinfo ==================== -->
 <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100% ALIGN=CENTER>
   <TR>
-    <TD ALIGN=LEFT><I><FONT SIZE=1>Zrajm C Akfohg &lt;<A HREF="mailto:zrajm@klingonska.org">zrajm@klingonska.org</A>&gt;</FONT></I></TD>
+    <TD ALIGN=LEFT><I><FONT SIZE=1>zrajm &lt;<A HREF="mailto:zrajm@klingonska.org">zrajm@klingonska.org</A>&gt;</FONT></I></TD>
     <TD ALIGN=CENTER><I><FONT SIZE=1><A HREF="<!--#echo var="PLACE" -->"><!--#echo var="PLACE" --></A></FONT></I></TD>
-    <TD ALIGN=RIGHT><I><FONT SIZE=1>Uppdaterad: <!--#echo var="LAST_MODIFIED" --></FONT></I></TD>
+    <TD ALIGN=RIGHT><I><FONT SIZE=1>Uppdaterad:Â <!--#echo var="LAST_MODIFIED" --></FONT></I></TD>
   </TR>
 </TABLE>
 
