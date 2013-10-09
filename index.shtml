@@ -1,0 +1,30 @@
+<!--#set    var="X_TITLE" value="Inneh&aring;ll."
+--><!--#set var="X_YEAR" value="1998-2013"
+--><!--#set var="X_STYLESHEET" value="main.css"
+--><!--#set var="PREV" value=".."
+--><!--#include virtual=".head.shtml" -->
+
+<table border=0 align=center><tr><td>      </td><td>
+<ul>
+<li><a href="blandat.shtml">Blandade recept</a>
+<li><a href="eget.shtml">Egna recept</a>
+<li><a href="smargas.shtml">Smörgåstårta</a>
+<li><a href="vegomat1.shtml">Vegetariska recept, A&ndash;K</a>
+<li><a href="vegomat2.shtml">Vegetariska recept, L&ndash;Ö</a>
+<p>
+<li><a href="romulanskt.shtml">Romulanskt öl</a>
+</ul>
+</td></tr></table>
+
+
+<p><div class=important><h2 align=center>Vill du bli bjuden på mat?</h2>
+
+Eftersom jag tycker matlagning är skoj, men alltför sällan hittar nån bra
+ursäkt för att laga mat, så är du som bor i Uppsalatrakten varmt välkommen att
+bjuda in mig till ditt hem för en matlagningssession. Du står för råvarorna,
+och jag lagar maten. Det enda jag begär är att jag får ta del av måltiden, och
+får lite trevligt sällskap. :)
+
+<br><br>Intressant? Ring eller skicka ett SMS till mig på 076-211 50 43.</div>
+
+<!--#include virtual=".foot.shtml" -->
